@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exercicio4 {
+public class Exercicio4 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
@@ -15,6 +15,8 @@ public class exercicio4 {
 		System.out.println("!A é :" + (!valorA));
 		System.out.println("!B é :" + (!valorB));
 		System.out.println("A || B, é :" + (valorA || valorB));
+		
+	
 
 	}
 	

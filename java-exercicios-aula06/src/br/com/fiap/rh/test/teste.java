@@ -1,7 +1,7 @@
-package br.com.fiap.test;
+package br.com.fiap.rh.test;
 
-import br.com.fiap.model.Aluno;
-import br.com.fiap.model.Professor;
+import br.com.fiap.rh.model.Aluno;
+import br.com.fiap.rh.model.Professor;
 
 public class teste {
 

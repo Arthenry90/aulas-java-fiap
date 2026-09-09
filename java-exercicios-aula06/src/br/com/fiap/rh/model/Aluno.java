@@ -1,4 +1,4 @@
-package br.com.fiap.model;
+package br.com.fiap.rh.model;
 
 public class Aluno {
 	private String nome;
