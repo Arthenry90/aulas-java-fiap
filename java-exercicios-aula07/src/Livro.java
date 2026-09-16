@@ -6,6 +6,20 @@ public class Livro {
 	private double desconto;
 	
 	
+	public Livro(String titulo, String autor, double preco) {
+		super();
+		this.titulo = titulo;
+		this.autor = autor;
+		this.preco = preco;
+	}
+	
+	public Livro() {
+		this.titulo = "Harry potter";
+		this.autor = "JK";
+		this.preco = 20;
+		this.desconto = 2;
+		
+	}
 	
 	public String getTitulo() {
 		return titulo;
@@ -39,30 +53,15 @@ public class Livro {
 		this.desconto = desconto;
 	}
 
-	public Livro(String titulo, String autor, double preco, double desconto) {
-		super();
-		this.titulo = titulo;
-		this.autor = autor;
-		this.preco = preco;
-		this.desconto = desconto;
-	}
-
-	public Livro() {
-		this.titulo = "Livro";
-		this.autor = "JK";
-		this.preco = 20;
-		this.desconto = 2;
-		
-	}
 	
-	public void descontoPercentual(double percentual) {
+	public void desconto(double percentual) {
 		
 		this.preco -= this.preco * (percentual / 100);
 		this.desconto = this.preco * (percentual / 100);
 
 	}
 	
-	public void descontoFixo(double fixo) {
+	public void desconto(int fixo) {
 		
 		this.preco -= (fixo);
 		this.desconto = (fixo);
